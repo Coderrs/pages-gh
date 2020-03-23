@@ -1,25 +1,25 @@
 {
-  "name": "yantratech.github.io",
+  "name": "coderrs.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install":"npm install --save-dev @11ty/eleventy",
+    "install": "npm install --save-dev @11ty/eleventy",
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Coderrs/yantratech.github.io.git"
+    "url": "git+https://github.com/Coderrs/coderrs.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Coderrs/yantratech.github.io/issues"
+    "url": "https://github.com/Coderrs/coderrs.github.io/issues"
   },
-  "homepage": "https://github.com/Coderrs/yantratech.github.io#readme",
+  "homepage": "https://github.com/Coderrs/coderrs.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "moment": "^2.24.0"
