@@ -1,4 +1,3 @@
 ---
 layout: base-layout.njk
-
 ---
