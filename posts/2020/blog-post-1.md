@@ -6,4 +6,3 @@ tags: ['post']
 ---
 This is the first post on my blog.
 
-Eleventy is super fresh in it.
