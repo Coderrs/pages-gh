@@ -2,20 +2,17 @@
 <html lang="en">
 <body>
 <div class="container">
-<!--menu-nav-->
-{% include "menu-nav.njk" %}
-<!--menu-nav-->
+<!--nav-->
+{% include "nav.njk" %}
 
 <!-- blog -->
 <div class="row mb-2">
   {{ content | safe  }}
 </div>
-<!-- blog -->
 
 </container>
 
-<!-- footer-header here  -->
-{% include "footer-header.njk" %}
-<!-- footer-header here  -->
+<!-- footer here  -->
+{% include "footer.njk" %}
 </body>
 </html>
