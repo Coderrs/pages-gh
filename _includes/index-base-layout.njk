@@ -4,7 +4,19 @@
 
 
 <!--Front Intro-->
-<section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--none -bg-white">
+<link rel="preload" as="image" href="/img/risingsun2.jpg" media="(max-width: 1200px)">
+<link rel="preload" as="image" href="/img/risingsun2.jpg" media="(min-width: 1200px)">
+<style>
+#td-cover-block-0 {
+    background-image: url(/img/risingsun2.jpg);
+}
+@media only screen and (min-width: 1200px) {
+    #td-cover-block-0 {
+        background-image: url(/img/risingsun2.jpg);
+    }
+}
+</style>
+<section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--none -bg-red">
   <div class="container td-overlay__inner">
     <div class="row">
       <div class="col-12">
@@ -33,7 +45,7 @@
 
 <!--Intro tringl-->
 
-<section class="row td-box td-box--primary position-relative td-box--gradient td-box--height-auto">
+<section id="td-block-1" class="row td-box td-box--primary position-relative td-box--gradient td-box--height-auto">
 
 	<div class="container text-center td-arrow-down">
 		<span class="h4 mb-0">

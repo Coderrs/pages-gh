@@ -8,11 +8,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("css/*.css");
   eleventyConfig.addWatchTarget("js/*.js");
   eleventyConfig.addWatchTarget("img/*.*");
+  eleventyConfig.addWatchTarget("webfonts/*.*");
   // need to use mappings so that your js and css code don't get copied to your output dir
   // as 'src/js' , 'src/css and src/img'
   eleventyConfig.addPassthroughCopy({ js: "js" });
   eleventyConfig.addPassthroughCopy({ css: "css" });
   eleventyConfig.addPassthroughCopy({ img: "img" });
+  eleventyConfig.addPassthroughCopy({webfonts:"webfonts"});
 
   eleventyConfig.addFilter("dateIso", date => {
     return moment(date).toISOString();
