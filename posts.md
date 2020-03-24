@@ -1,5 +1,5 @@
 ---
-layout: blog-base-layout.njk
+layout: post-base-layout.njk
 pagination:
   data: collections.post
   size: 10
