@@ -3,4 +3,4 @@ layout: base-layout.njk
 ---
 # Contact US
 
-This is my special place on the big World Wide Web
+Contact us by sending an e-mail
