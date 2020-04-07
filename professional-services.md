@@ -63,7 +63,7 @@ Because we are community of chosen engineers, we operate, unlike traditional IT 
 company.
 
 ### Our primary differentiators are
-- AVCS.dev is unique Sydney based Australian bridge to off-shore providers,
+- AVCS is an unique Sydney based Australian bridge to off-shore providers,
 delivering superior value and flexibility.
 - A complete range of performance services – from staff expansion to fully managed
 QA outsourcing services (including managed testing environments &amp; infrastructure)
@@ -124,21 +124,3 @@ Details about our service offering in Identity access and security
 
 ## Application performance monitoring
 Details of our experience in performance monitoring
-
-## Cloud
-Our community and services provide support in Azure and AWS cloud.
-
-We can help you maintain or help you migrate and support.
-
-We automate and help you maintain a competitive RTO and RPO with On-Demand Support.
-
-
-## Continuous (Integration -> Delivery  - Monitoring)
-
-It is all about Continuity, whether it is development , support, security etc ...
-
-We specialize in automating the IT requirements, whether it is On-Prem or Cloud .
-
-The continuation starts from each code commit to Build & Quality checks to deployment to testing to build promotion to Integration Testing to Production Deployment to Minimal Regression and Smoke test to Production Monitoring and Maintenance.
-
-We run a community of Specialists around the globe who can support your requirement(s)

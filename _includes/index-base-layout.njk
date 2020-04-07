@@ -3,25 +3,25 @@
 {% include "nav.njk" %}
 
 
-<!--Front Intro-->
-<link rel="preload" as="image" href="/img/sunrise.jpg" media="(max-width: 1200px)">
-<link rel="preload" as="image" href="/img/sunrise.jpg" media="(min-width: 1200px)">
+<!--Front Intro -->
+<link rel="preload" as="image" href="/img/rsz_emptyroad.jpg" media="(max-width: 1200px)">
+<link rel="preload" as="image" href="/img/rsz_emptyroad.jpg" media="(min-width: 800px)">
 <style>
 #td-cover-block-0 {
-    background-image: url(/img/sunrise.jpg);
+    background-image: url(/img/rsz_emptyroad.jpg);
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 300px) {
     #td-cover-block-0 {
-        background-image: url(/img/sunrise.jpg);
+        background-image: url(/img/rsz_emptyroad.jpg);
     }
 }
 </style>
-<section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--dark -bg-red">
+<section id="td-cover-block-0" style="min-height: 630px" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--dark -bg-red">
   <div class="container td-overlay__inner">
     <div class="row">
       <div class="col-12">
         <div class="text-center">
-          <h1 class="display-1 mt-0 mt-md-5 pb-4">WELCOME TO AVCS</h1>
+          <h1 class="display-1 mt-1 mt-md-5 pb-0">Welcome to AVCS</h1>
           <div class="pt-3 lead">
             <div class="mx-auto">
 <!--	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/docs/">
@@ -30,7 +30,7 @@
 	<a class="btn btn-lg btn-secondary mr-3 mb-4">
 		Download <i class="fab fa-github ml-2 "></i>
 	</a>-->
-	<p class="lead mt-5">AV Consulting is a community driven, independent, security and performance engineering solution provider.</p>
+	<p class="lead mt-4">AV Consulting and Services is a community driven, independent, DevOps, Security and Performance engineering solution provider.</p>
 <p>Our focus is to design and facilitate the best technology practices to deliver exceptional outcomes.</p>
 <p><a class="btn btn-link text-info" href="#td-block-1"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a></p>
 </div>
@@ -45,47 +45,61 @@
 
 <!--Intro tringl-->
 
-<section id="td-block-1" class="row td-box td-box--primary position-relative td-box--gradient td-box--height-auto">
+<section id="td-block-1" class="shadow-lg row td-box td-box--primary position-relative td-box--gradient td-box--height-auto">
 
 	<div class="container text-center td-arrow-down">
-		<span class="h4 mb-0">
+		<span class="h3 mb-0 ">
 &nbsp;
-			<p>We are group of experienced technologist who strives to provide solutions to your tech issues through engineering and partnership.</p>
+			<p>We are group of experienced technologists with more than a decade of experience who strives to provide solutions to your tech issues through engineering and partnership.</p>
 &nbsp;
 		</span>
 	</div>
 </section>
 <p>&nbsp;</p>
+
 <!--Intro tringl-->
 
 <!--Services-->
 
-<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+<section  class="row td-box td-box--white td-box--gradient td-box--height-auto">
 	<div class="col">
 		<div class="row ">
-<a style="color: inherit;" href="/services/performance-testing" title="Performance Testing Services">
+<a style="color: inherit;" href="/services/performance-testing-monitoring" title="Performance Testing & Monitoring Services">
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
   <div class="mb-4 h1">
     <i class="fas fa-expand"></i>
   </div>
-<h4 class="h3">Performance Testing</h4>
-  <p class="mb-0"></p><p>We Provide Performance Testing Services.</p>
+<h4 class="h3">Performance Testing and Monitoring</h4>
+  <p class="mb-0"></p><p>We Provide Performance Testing and Monitoring Services keeping your business priorities and requirements.</p>
 </a>
 <p></p>
 </div>
+
+<a style="color: inherit;" href="/services/devops" title="DevOps Solutions">
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-cubes"></i>
+  </div>
+  <h4 class="h3">DevOps Solutions</h4>
+  <p class="mb-0"></p><p>We empower your DevOps requirements. Whether in AWS , Azure Cloud or On-Prem.</p>
+<p></p>
+</a>
+</div>
 <p></p>
 
+<!--
 <a style="color: inherit;" href="/services/performance-monitoring" title="Performance Monitoring Services">
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
   <div class="mb-4 h1">
     <i class="fas fa-bolt"></i>
   </div>
   <h4 class="h3">Performance Monitoring</h4>
-  <p class="mb-0"></p><p>We Provide Performance Monitoring Services.</p>
+  <p class="mb-0"></p><p>We provide Performance Monitoring Services.</p>
 <p></p>
 <a/>
 </div>
 <p></p>
+
 <a style="color: inherit;" href="/services/identity-access-n-security" title="Identity Access & Security Services">
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
   <div class="mb-4 h1">
@@ -107,32 +121,23 @@
 <p></p>
 </a>
 </div>
-<p></p>
+<p></p>-->
 <a style="color: inherit;" href="/services/blockchain" title="Block Chain Solutions">
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
   <div class="mb-4 h1">
     <i class="fas fa-rocket"></i>
   </div>
-  <h4 class="h3">BlockChain</h4>
-  <p class="mb-0"></p><p>We can help you in building Block Chain solutions.</p>
+  <h4 class="h3">Private BlockChain Solutions</h4>
+  <p class="mb-0"></p><p>We help you in developing and designing your favorite Private Block Chain solutions.</p>
 <p></p>
 </a>
 </div>
 <p></p>
-<a style="color: inherit;" href="/services/ci-cd-cm" title="DevOps & CI/CD/CM Solutions">
-<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
-  <div class="mb-4 h1">
-    <i class="fas fa-cubes"></i>
-  </div>
-  <h4 class="h3">CI/CD/CM</h4>
-  <p class="mb-0"></p><p>We provide services in CI/CD and CM.</p>
-<p></p>
-</a>
-</div>
 
 		</div>
 	</div>
 </section>
+<p>&nbsp;</p>
 
 <!--Services-->
 
