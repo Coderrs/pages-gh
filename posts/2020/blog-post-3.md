@@ -1,5 +1,5 @@
 ---
-layout: base-layout.njk
+layout: blog-all.njk
 title: Blog Third
 date: 2020-07-01
 tags: ['post']

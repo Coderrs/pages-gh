@@ -11,7 +11,7 @@ pagination:
     <div class="card flex-md-row mb-4 shadow-sm h-md-250">
       <div class="card-body d-flex flex-column align-items-start">
         <h3 class="mb-0">
-          <strong class="d-inline-block mb-2 text-info">{{ post.data.title }}</strong>
+          <strong class="d-inline-block mb-2">{{ post.data.title }}</strong>
           <a class="text-dark" href="{{ post.url | url }}"></a>
         </h3>
         <div datetime="{{ post.date | dateIso }}" class="mb-1 text-muted">{{ post.date | dateReadable }}</div>
