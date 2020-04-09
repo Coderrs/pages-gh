@@ -36,7 +36,7 @@ layout: base-layout.njk
 
 <div class="col-lg-6 mb-1 mb-lg-0">
 
-## Performance Monitoring Services
+## Performance Monitoring
 ---
 #### It’s important that we know what’s happening in our environment:
 1. Monitor our service to our customers
