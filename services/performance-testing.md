@@ -28,7 +28,7 @@ AVCS performance engineering service is a systematic, cost-effective approach to
 software systems performance. Engaging AVCS can reduce project costs and eliminate project
 failures due to performance problems. We will help you to improve your level of service to
 customers, reduce business costs, help you use computer resources more efficiently, and
-improve your competitive position. 
+improve your competitive position.
 
 ## AVCS offerings in terms of performance testing services
 
@@ -37,6 +37,4 @@ improve your competitive position. 
 - Volume Testing
 - Scalability Testing
 
-
 ## Why performance testing?
-

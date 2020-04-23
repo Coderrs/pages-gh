@@ -2,7 +2,6 @@
 layout: base-layout.njk
 ---
 
-
 <div class="container-fluid" >
   <h1 style="text-align:center;">Performance Testing and Monitoring Services</h1>
 <p>&nbsp</p>
@@ -12,7 +11,9 @@ layout: base-layout.njk
 <div class="col-lg-6 mb-2 mb-lg-0">
 
 ## Performance Testing
+
 ---
+
 ##### Performance engineering is a systematic, quantitative approach to the cost-effective development of software systems to meet performance requirements.
 
 ##### The scope of end to end performance engineering involves focus on architecture, design, and implementation choices.
@@ -37,22 +38,27 @@ layout: base-layout.njk
 <div class="col-lg-6 mb-1 mb-lg-0">
 
 ## Performance Monitoring
+
 ---
+
 #### It’s important that we know what’s happening in our environment:
+
 1. Monitor our service to our customers
 2. Raise an incident for us to action
 3. Alert an engineer with relevant information to action / investigate
 4. Provide deep level of information to help the investigator
 
 #### What do we monitor?
+
 - Infrastructures
 - Application stacks
 
 ### Infrastructure performance monitoring
+
 We have developed specialized solutions to cater for your needs of performance monitoring.
 
-
 ### Application performance monitoring
+
 Our Solutions differ for application and their types as every application needs a special care.
 
 <p></p>
@@ -61,8 +67,6 @@ Our Solutions differ for application and their types as every application needs 
 
 </section>
 </div>
-
-
 
 ---
 

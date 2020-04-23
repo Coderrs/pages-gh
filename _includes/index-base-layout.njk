@@ -1,20 +1,18 @@
-
 <!-- nav  -->
 {% include "nav.njk" %}
-
 
 <!--Front Intro -->
 <link rel="preload" as="image" href="/img/rsz_emptyroad.jpg" media="(max-width: 1200px)">
 <link rel="preload" as="image" href="/img/rsz_emptyroad.jpg" media="(min-width: 800px)">
 <style>
-#td-cover-block-0 {
-    background-image: url(/img/rsz_emptyroad.jpg);
-}
-@media only screen and (max-width: 300px) {
+  #td-cover-block-0 {
+    background-image: url("/img/rsz_emptyroad.jpg");
+  }
+  @media only screen and (max-width: 300px) {
     #td-cover-block-0 {
-        background-image: url(/img/rsz_emptyroad.jpg);
+      background-image: url("/img/rsz_emptyroad.jpg");
     }
-}
+  }
 </style>
 <section id="td-cover-block-0" style="min-height: 630px" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--dark -bg-red">
   <div class="container td-overlay__inner">
@@ -24,16 +22,20 @@
           <h1 class="display-1 mt-1 mt-md-5 pb-0">Welcome to AVCS</h1>
           <div class="pt-3 lead">
             <div class="mx-auto">
-<!--	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/docs/">
+              <!--	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/docs/">
 		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
 	</a>
 	<a class="btn btn-lg btn-secondary mr-3 mb-4">
 		Download <i class="fab fa-github ml-2 "></i>
 	</a>-->
-	<p class="lead mt-4">AV Consulting and Services is a community driven, independent, DevOps, Security and Performance engineering solution provider.</p>
-<p>Our focus is to design and facilitate the best technology practices to deliver exceptional outcomes.</p>
-<p><a class="btn btn-link text-info" href="#td-block-1"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a></p>
-</div>
+              <p class="lead mt-4">AV Consulting and Services is a community driven, independent, DevOps, Security and Performance engineering solution provider.</p>
+              <p>Our focus is to design and facilitate the best technology practices to deliver exceptional outcomes.</p>
+              <p>
+                <a class="btn btn-link text-info" href="#td-block-1">
+                  <i class="fa fa-chevron-circle-down" style="font-size: 400%"></i>
+                </a>
+              </p>
+            </div>
 
           </div>
         </div>
@@ -47,13 +49,13 @@
 
 <section id="td-block-1" class="shadow-lg row td-box td-box--primary position-relative td-box--gradient td-box--height-auto">
 
-	<div class="container text-center td-arrow-down">
-		<span class="h3 mb-0 ">
+  <div class="container text-center td-arrow-down">
+    <span class="h3 mb-0 ">
 &nbsp;
 			<p>We are group of experienced technologists with more than a decade of experience who strives to provide solutions to your tech issues through engineering and partnership.</p>
 &nbsp;
 		</span>
-	</div>
+  </div>
 </section>
 <p>&nbsp;</p>
 
@@ -62,32 +64,34 @@
 <!--Services-->
 
 <section  class="row td-box td-box--white td-box--gradient td-box--height-auto">
-	<div class="col">
-		<div class="row ">
-<a style="color: inherit;" href="/services/performance-testing-monitoring" title="Performance Testing & Monitoring Services">
-<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
-  <div class="mb-4 h1">
-    <i class="fas fa-expand"></i>
-  </div>
-<h4 class="h3">Performance Testing and Monitoring</h4>
-  <p class="mb-0"></p><p>We Provide Performance Testing and Monitoring Services keeping your business priorities and requirements.</p>
-</a>
-<p></p>
-</div>
+  <div class="col">
+    <div class="row ">
+      <a style="color: inherit;" href="/services/performance-testing-monitoring" title="Performance Testing & Monitoring Services">
+        <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+          <div class="mb-4 h1">
+            <i class="fas fa-expand"></i>
+          </div>
+          <h4 class="h3">Performance Testing and Monitoring</h4>
+          <p class="mb-0"></p>
+          <p>We Provide Performance Testing and Monitoring Services keeping your business priorities and requirements.</p>
+        </a>
+        <p></p>
+      </div>
 
-<a style="color: inherit;" href="/services/devops" title="DevOps Solutions">
-<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
-  <div class="mb-4 h1">
-    <i class="fas fa-cubes"></i>
-  </div>
-  <h4 class="h3">DevOps Solutions</h4>
-  <p class="mb-0"></p><p>We empower your DevOps requirements. Whether in AWS , Azure Cloud or On-Prem.</p>
-<p></p>
-</a>
-</div>
-<p></p>
+      <a style="color: inherit;" href="/services/devops" title="DevOps Solutions">
+        <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+          <div class="mb-4 h1">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <h4 class="h3">DevOps Solutions</h4>
+          <p class="mb-0"></p>
+          <p>We empower your DevOps requirements. Whether in AWS , Azure Cloud or On-Prem.</p>
+          <p></p>
+        </a>
+      </div>
+      <p></p>
 
-<!--
+      <!--
 <a style="color: inherit;" href="/services/performance-monitoring" title="Performance Monitoring Services">
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
   <div class="mb-4 h1">
@@ -122,20 +126,21 @@
 </a>
 </div>
 <p></p>-->
-<a style="color: inherit;" href="/services/blockchain" title="Block Chain Solutions">
-<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
-  <div class="mb-4 h1">
-    <i class="fas fa-rocket"></i>
-  </div>
-  <h4 class="h3">Private BlockChain Solutions</h4>
-  <p class="mb-0"></p><p>We help you in developing and designing your favorite Private Block Chain solutions.</p>
-<p></p>
-</a>
-</div>
-<p></p>
+      <a style="color: inherit;" href="/services/blockchain" title="Block Chain Solutions">
+        <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+          <div class="mb-4 h1">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h4 class="h3">Private BlockChain Solutions</h4>
+          <p class="mb-0"></p>
+          <p>We help you in developing and designing your favorite Private Block Chain solutions.</p>
+          <p></p>
+        </a>
+      </div>
+      <p></p>
 
-		</div>
-	</div>
+    </div>
+  </div>
 </section>
 <p>&nbsp;</p>
 
