@@ -42,7 +42,8 @@ The workload model is the document that will capture these details and also prov
 
 __There are four different sources of truths that a performance engineer should utilize to build his workload model.__ 
 
-| Source Type|Tools /Sources|
+| Source Type | Tools/Sources |
+|------------|---------------|
 |Actuals/Production logs| Web server logs, Database queries, or Data mining tools such as Splunk or Logstash Kibana.|
 |Testimony (from Business)| A businessperson who has an understanding of the expected growth of the software product you are testing.
 |Comparison| Your competitor’s product in the market or their published sales numbers.|
@@ -56,25 +57,26 @@ The Pareto principle (also known as the 80/20 rule, the law of the vital few, or
 Following is the pictorial illustration of the Pareto principle applied to community fundraising
 
 ![alt text] /Users/vijayhatewar/repos/pages-gh/img/Pareto_principle.jpg
-Let us say after applying the above principle you have recognised the list of the critical business transactions. And based on the data obtained from the different sources of knowledge such production logs; you have identified transaction volume for each business-critical transaction and the peak load volume. 
 
+Let us say after applying the above principle you have recognised the list of the critical business transactions. And based on the data obtained from the different sources of knowledge such production logs; you have identified transaction volume for each business-critical transaction and the peak load volume. 
 The next step is ascertaining required pacing and thinking time to build the workload model. 
 The mathematical principle that I use to build this simulation model is Little's law of queueing theory which states that the long-term average number L of customers in a stationary system is equal to the long-term average effective arrival rate λ multiplied by the average time W that a customer spends in the system. Expressed algebraically the law is
 
 _L = λ W_
 
-|Business Process|Steps|Avg think time (seconds) |Total think time(_W_)|Total Users(_L_)|Pacing time _λ_| 
-|BP -1|5|10|50|30|1.6|
-|BP -2|10|10|100|200|2|
-|BP -3|7|10|70|140|2|
-|BP -4|14|10|140|300|2.14|
-|BP -5|11|10|110|300|2.7|
+| Business Process | Steps | Avg think time (seconds) | Total think time (_W_) | Total Users(_L_) | Pacing time (_λ_) |
+|------------|---------------|------------|---------------|------------|---------------|
+| BP -1 | 5 | 10 | 50 | 30 | 1.6 |
+| BP -2 | 10 | 10 | 100 | 200 | 2 |
+| BP -3 | 7 | 10 | 70 | 140 | 2 |
+| BP -4 | 14 | 10 | 140 | 300 | 2.14 |
+| BP -5 | 11 | 10 | 110 | 300 | 2.7 | 
 
 _W_ - Think time is average time users spend on every page.
 _L_ - Total users during peak load hour 
 _λ_ – Interval between the iteration of same transactions. 
 
-#### Suggestions:#### 
+#### Suggestions:
 
 **Use the above steps to execute your baseline performance tests.**
 **To achieve expected TPS, modify your total user count, pacing time values for in-scope transactions  for any other goal-oriented performance testing such as stress or scalable testing.**  
