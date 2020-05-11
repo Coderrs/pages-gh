@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71de29a8-9068-4e6d-aa59-c323320c2cb7" name="Default" comment="">
+    <list default="true" id="71de29a8-9068-4e6d-aa59-c323320c2cb7" name="Default" comment="Updated blog formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2020/blog-post-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2020/blog-post-4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,25 @@
       <option name="presentableId" value="Default" />
       <updated>1589176421788</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated blog formatting">
+      <created>1589190520748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589190520748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated blog formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated blog formatting" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="227" y="23" key="CommitChangelistDialog2" timestamp="1589190519381">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="227" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1589190519381" />
   </component>
   <component name="masterDetails">
     <states>
