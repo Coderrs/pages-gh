@@ -6,7 +6,7 @@ summary: Kubernetes Journey – Upskilling your team
 tags: ['post']
 keywords: ['Kubernetes']
 author: Brad Mccoy
-profileimage:  
+profileimage: https://media-exp1.licdn.com/dms/image/C5603AQEKNE0jmM5O1g/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=sffu6SZWhzhQpaOfUX_zE-01Rv3PsaEy7xIrQOUrE-U 
 profiletext: 
 ---
 
