@@ -2,8 +2,12 @@
 layout: blog-all.njk
 title: Kubernetes Journey – Upskilling your team
 date: 2020-07-01
-tags: ['Kubernetes']
+summary: Kubernetes Journey – Upskilling your team
+tags: ['post']
+keywords: ['Kubernetes']
 author: Brad Mccoy
+profileimage:  
+profiletext: 
 ---
 
 I’m the Engineering Manager for the Cloud Innovation team at Temenos where I manage 7 senior DevOps engineers.  As our company is getting into more cloud providers, we decided to get into Kubernetes so that we can run our solutions across all clouds and save money in costs. We decided that rather than going to market we would train everyone internally to upskill employees, give them job satisfaction and retain them.  This initiative turned out to be more successful than I thought and therefore I would like to share my journey for other managers and tech leads wanting to start.
