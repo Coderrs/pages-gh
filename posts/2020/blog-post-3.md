@@ -7,7 +7,7 @@ tags: ['post']
 keywords: ['Kubernetes']
 author: Brad Mccoy
 profileimage: https://media-exp1.licdn.com/dms/image/C5603AQEKNE0jmM5O1g/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=sffu6SZWhzhQpaOfUX_zE-01Rv3PsaEy7xIrQOUrE-U 
-profiletext: 
+profiletext: I am an engineering manager , currently managing the Cloud Innovation Team in modern DevOps environment, where we are working with AWS and Azure and currently going through Kubernetes Journey.  
 ---
 
 I’m the Engineering Manager for the Cloud Innovation team at Temenos where I manage 7 senior DevOps engineers.  As our company is getting into more cloud providers, we decided to get into Kubernetes so that we can run our solutions across all clouds and save money in costs. We decided that rather than going to market we would train everyone internally to upskill employees, give them job satisfaction and retain them.  This initiative turned out to be more successful than I thought and therefore I would like to share my journey for other managers and tech leads wanting to start.
