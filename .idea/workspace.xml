@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de29a8-9068-4e6d-aa59-c323320c2cb7" name="Default" comment="Updated blog formatting">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2020/blog-post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2020/blog-post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2020/blog-post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2020/blog-post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2020/blog-post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2020/blog-post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2020/blog-post-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2020/blog-post-4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +10,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -112,14 +101,6 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1589190519381" />
-    <state x="341" y="166" width="598" height="490" key="find.popup" timestamp="1589376810124">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="341" y="166" width="598" height="490" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1589376810124" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1589376960127">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1589376960127" />
   </component>
   <component name="masterDetails">
     <states>

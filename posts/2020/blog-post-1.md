@@ -1,7 +1,7 @@
 ---
 layout: blog-all.njk
 title: Makefile enhances flavour of tox
-date: 2020-05-13
+date: 2020-05-30
 tags: ['post']
 keywords: ['make','tox']
 author: K. K. 
