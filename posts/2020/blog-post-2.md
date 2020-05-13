@@ -1,7 +1,7 @@
 ---
 layout: blog-all.njk
 title: Jenkins with Docker Slaves
-date: 2020-05-05
+date: 2020-11-05
 summary: As a DevOps
 tags: ['post']
 keywords: ['Jenkins', 'Docker', 'Slaves']
