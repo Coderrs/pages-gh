@@ -3,8 +3,13 @@ layout: blog-all.njk
 title: Makefile enhances flavour of tox
 date: 2020-05-30
 tags: ['post']
-author: Sharad
+keywords: ['make','tox']
+author: K. K. 
+summary: "Makefile has eased life"
+profileimage: holder.js/160x170?theme=AVCS 
+profiletext: I am an Automation Engineer, who is drowned in Laziness. So you can expect that I like to automate steps in a fashion, so that I do not need to do anything manually. Professionally I have worked with 3 of the Big 4 Banks and I provide Consulting services in DevOps and Automation. I am Community Driven and a Big time Googler.  
 ---
+This is part 1 of the series where we will discuss on initials of make file and how this can enhance the taste buds of automation to tox.
 
 Makefile or make has eased life of developers in the past and is still commonly used in various spaces.
 This blog relates the usage of make with a tox infrastructure test run.
@@ -35,3 +40,5 @@ line 14, 17, 21, 24, 28 : all represents a call similar to a goto statement
 
 <code>make clean build run</code> # will do "make clean build" in sequence and thereafter will perform clean (line 15) and then run with tox parameter (line 19)
 
+
+>> Still working on Next Part 
