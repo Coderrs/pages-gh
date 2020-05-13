@@ -1,7 +1,7 @@
 ---
 layout: blog-all.njk
 title: Kubernetes Journey – Upskilling your team
-date: 2020-07-01
+date: 2020-05-11
 summary: Kubernetes Journey – Upskilling your team
 tags: ['post']
 keywords: ['Kubernetes']
