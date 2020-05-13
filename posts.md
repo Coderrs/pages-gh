@@ -2,7 +2,7 @@
 layout: post-base-layout.njk
 pagination:
   data: collections.post
-  size: 10
+  size: 10000
   reverse: true
   alias: posts
 ---
@@ -13,11 +13,11 @@ pagination:
     <div class="card flex-md-row mb-4 shadow-sm h-md-250">
       <div class="card-body d-flex flex-column align-items-start">
         <h3 class="mb-0">
-          <strong class="d-inline-block mb-2">{{ post.data.title }}</strong>
+          <strong class="d-inline-block mb-2">{{ post.data.title | truncate: 35 }}</strong>
           <a class="text-dark" href="{{ post.url | url }}"></a>
         </h3>
         <div datetime="{{ post.date | dateIso }}" class="mb-1 text-muted">{{ post.date | dateReadable }}</div>
-        <p class="card-text mb-auto">{{ post.data.summary | safe | truncate()}}</p>
+        <p class="card-text mb-auto">{{ post.excerpt | safe }}</p>
         <a href="{{ post.url | url }}" aria-label="Read more on {{ post.data.title }}">Continue reading</a>
       </div>
       <img class="card-img-right flex-auto d-none d-lg-block" src="{{ post.data.profileimage }}" data-holder-rendered="true" style="padding-top:10px;padding-right:10px;width: 160px; height: 170px;border-radius: 80%;" alt="Avatar">

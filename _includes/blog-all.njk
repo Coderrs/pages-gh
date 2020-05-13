@@ -15,31 +15,31 @@
 
             <ul class="td-sidebar-nav__section pr-md-3">
               <li class="td-sidebar-nav__section-title">
-                <a href="/blog/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Blog</a>
+                <a href="/posts/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">All Blogs</a>
               </li>
               <ul>
                 <li class="collapse show" id="blog">
                   <ul class="td-sidebar-nav__section pr-md-3">
                     <li class="td-sidebar-nav__section-title">
-                      <a href="/blog/releases/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Releases</a>
+                      <a href="{{ url }}" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">{{ title }}</a>
                     </li>
                     <ul>
-                      <li class="collapse show" id="blogreleases">
+                      <!--<li class="collapse show" id="blogreleases">
                         <a class="td-sidebar-link td-sidebar-link__page " id="m-blog20200229-v100-release" href="/blog">All Blogs</a>
-                      </li>
+                      </li>-->
                     </ul>
-                </ul>
-              </li>
-            </ul>
-        </ul>
-      </nav>
+                    </ul>
+                  </li>
+              </ul>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
   <!--blog-right-->
   <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
     <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
     <!-- User Details and Profile-->
-      <img class="card-img-right flex-auto d-none d-lg-block" src="{{ profileimage }}" data-holder-rendered="true" style="padding-top:10px;padding-right:10px;width: 160px; height: 170px;border-radius: 80%;" alt="Avatar">
+      <img class="card-img-right flex-auto d-none d-lg-block" src="{{ profileimage }}" data-holder-rendered="true" style="padding: 10px; width: 160px; height: 160px; border-radius: 810%;" alt="Avatar">
 &nbsp;&nbsp;&nbsp;&nbsp;{{ author }} <br>
 {{profiletext}}
 </div>

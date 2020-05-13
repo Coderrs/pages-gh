@@ -10,8 +10,6 @@ profileimage: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBA
 profiletext: 
 ---
 
-# Performance testing for dummies 
-
 The iterative style of development in the Agile has changed the way we build and test the software.
 
 During the waterfall days, the performance test was primarily executed in the last phase of the product. However, an agile approach requires you to test your product before every release. The shift towards continuous integration and development has changed how we plan overall performance tests and how often we test however there has not been any change in the way we strategize the performance testing.
