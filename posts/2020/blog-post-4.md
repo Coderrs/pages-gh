@@ -1,7 +1,7 @@
 ---
 layout: blog-all.njk
 title: Performance testing for dummies
-date: 2020-08-01
+date: 2020-05-08
 tags: ['post']
 summary: The iterative style of development in the Agile has changed the way we build and test the software.
 keywords: ['workload', 'modelling']
