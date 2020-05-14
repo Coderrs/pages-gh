@@ -1,10 +1,10 @@
 ---
 layout: blog-all.njk
 title: Makefile enhances flavour of tox
-date: 2020-05-30
+date: 2020-05-13
 tags: ['post']
 keywords: ['make','tox']
-author: K. K. 
+author: Sharad Vatsa
 summary: "Makefile has eased life"
 profileimage: holder.js/160x170?theme=AVCS 
 profiletext: I am an Automation Engineer, who is drowned in Laziness. So you can expect that I like to automate steps in a fashion, so that I do not need to do anything manually. Professionally I have worked with 3 of the Big 4 Banks and I provide Consulting services in DevOps and Automation. I am Community Driven and a Big time Googler.  
