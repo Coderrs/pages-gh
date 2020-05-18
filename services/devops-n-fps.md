@@ -2,7 +2,7 @@
 layout: base-layout.njk
 ---
 
-<h1 style="text-align:center;">Dev-Ops and Future Proof Systems -  </h1>
+<h1 style="text-align:center;">Dev-Ops & Future Proof Systems </h1>
 
 
 <img src="/img/automation.jpg" style="max-height: 500px;" class="img-fluid" alt="Responsive image"><p></p>
