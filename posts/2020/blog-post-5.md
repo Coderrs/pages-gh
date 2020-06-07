@@ -41,6 +41,9 @@ ed.cs73.my.salesforce.com) copied from the previous step.
 Download the yml templates below and copy them in the root directory of your project repository. Make sure
 that the sfdx-deploy,yml is added under the "templates" folder.
 
+<img src="/img/blog/5/3.jpg" style="max-height: 300px; float: center;" class="img-fluid" alt="Responsive image">
+
+
 <pre class="line-numbers">
 <code class="language-yml">
 # File: azure-pipelines.yml
@@ -155,4 +158,3 @@ jobs:
 
 </code>
 </pre>
-<img src="/img/blog/5/3.jpg" style="max-height: 300px; float: center;" class="img-fluid" alt="Responsive image">
