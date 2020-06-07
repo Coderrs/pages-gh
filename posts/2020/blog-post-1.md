@@ -15,9 +15,38 @@ Makefile or make has eased life of developers in the past and is still commonly 
 This blog relates the usage of make with a tox infrastructure test run.
 
 As this is for the community and if you are interested in just the code ,go ahead.
+<pre  class="line-numbers">
+<code class="language-make">
+# Theory
+# - Cleanup of old binaries and non required files
+# - Performing git clone
+# - Calling as shell script to build
 
-<script src="https://gist.github.com/sharadvatsa/eff3d9c00f79e42f1a7ae7ddb1f58bb9.js"></script>
 
+.PHONY: build clean run git
+
+VERSION = "0.0.1" #using '0.0.1' , use $RANDOM if you want to use it as $(shell $RANDOM)
+
+TARGET_FILEPATH = $(addsuffix $(VERSION), ./dist/prod-build-)
+TARGET_ZIPFILEPATH = $(addsuffix .tar.gz,$(TARGET_FILEPATH))
+
+clean:
+    $(shell bash ./run.sh)
+
+run:
+    $(clean)
+    $(run.sh) tox
+
+git:
+    git clone https://<URL.to.repo>
+
+$(TARGET_ZIPFILEPATH):
+    $(git)
+    @python3 setup.py sdist
+
+build: $(TARGET_ZIPFILEPATH)
+</code>
+</pre>
 What does that means ?
 
 <code>make clean</code> # will clean the directory
